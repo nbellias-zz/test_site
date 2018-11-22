@@ -8,14 +8,19 @@
 </head>
 <body>
     <div>
-        <h1></h1>
+        <h1>Welcome to Nikolaos Bellias Netlify Site</h1>
         <ul>
-            <li class="item1">Item 003</li>
-            <li class="item2">Item 004</li>
-            <li class="item3">Item 005</li>
-            <li class="item4">Item 006</li>
-            <li class="item5">Item 007</li>
+            <li id="item1">Item 003</li>
+            <li id="item2">Item 004</li>
+            <li id="item3">Item 005</li>
+            <li id="item4">Item 006</li>
+            <li id="item5">Item 007</li>
         </ul>
     </div>
 </body>
 </html>
+
+<script>
+const d = new Date();
+document.getElementById("item1").innerHTML = d;
+</script>
